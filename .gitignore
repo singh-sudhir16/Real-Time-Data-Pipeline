@@ -1,42 +1,8 @@
 postgres
-# README.md
-
-# Ignore Python cache
-__pycache__/
-*.pyc
-*.pyo
-
-# Ignore virtual environments
-venv/
 .env/
-
-# Ignore environment variables
 .env
-
-# Ignore Airflow logs and config artifacts
 airflow/logs/
 airflow/dags/__pycache__/
-
-# Ignore Docker volumes and build artifacts
-*.log
-*.pid
-*.db
-*.sqlite
-*.bak
-
-# Ignore Spark local files
 spark/logs/
-
-# Ignore Cassandra data
 cassandra/data/
-
-# Ignore PostgreSQL data
 postgres/data/
-
-# Ignore IDE/editor configs
-.vscode/
-.idea/
-
-# Ignore OS metadata
-.DS_Store
-Thumbs.db
