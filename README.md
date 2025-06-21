@@ -70,7 +70,3 @@ Project files and folder structure:
 - `spark/`: Contains Spark streaming script and logs.
 - `.env/`: Contains environment configuration files.
 - `docker-compose.yml`: Docker Compose configuration file.
-
-## Acknowledgments
-
-For detailed information about the code and its functionalities, please refer to the inline comments within the source files. Feel free to explore the codebase and contribute to further enhancements or bug fixes!
